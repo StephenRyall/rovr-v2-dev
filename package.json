@@ -1,0 +1,33 @@
+{
+  "name": "rovr_graphql_react",
+  "version": "1.0.0",
+  "description": "Development environment for RoVR V2",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server/server.js",
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/StephenRyall/stephengrider-base-graphql-project.git"
+  },
+  "engines": {
+    "node": "12.18.0"
+  },
+  "keywords": [
+    "moonhub",
+    "graphql",
+    "react"
+  ],
+  "author": "stephen ryall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StephenRyall/stephengrider-base-graphql-project/issues"
+  },
+  "homepage": "https://github.com/StephenRyall/stephengrider-base-graphql-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
